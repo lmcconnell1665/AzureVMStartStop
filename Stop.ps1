@@ -3,6 +3,7 @@ Param(
    $AutomationRG = "VMAutoStartStop",
    $AutomationAcct = "VMStartStop",
    $StopType = "Auto",
+   
    # Get webhook data via webhook
    [Parameter(Mandatory=$False,Position=1)]
    [object] $WebhookData
